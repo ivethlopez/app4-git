@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+<head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!--<script src="js/acciones.js"></script>-->
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/img3.jpg','imagenes/img7.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" 		data-back-btn-theme="a">
+		<h1>Contaminación Ambiental</h1>
+	</div>
+    <div data-role="main" class="ui-content">
+	   <div data-role="collapsible" data-content-theme="false">
+		   <h1>Contaminación</h1>
+             <div>
+	         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sus1','','imagenes/img7.jpg',1)"><img src="imagenes/contaminacion.jpg" width="70%" height="60%" id="sus1"></a> </div>
+       </div>
+    </div>
+    
+    
+    <div>
+	   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+		  <li class="ui-first-child ui-last-child">
+			<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Definición</h2>
+			</a>
+		  </li>
+          		  <li class="ui-first-child ui-last-child">
+			<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Tipos de contaminación</h2>
+			</a>
+		  </li>
+          		  <li class="ui-first-child ui-last-child">
+			<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Consecuencias</h2>
+			</a>
+		  </li>
+          		  <li class="ui-first-child ui-last-child">
+			<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Reciclaje</h2>
+			</a>
+		  </li>
+          		  <li class="ui-first-child ui-last-child">
+			<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+				<h2>Medidas para combatir la contaminación </h2>
+			</a>
+		  </li>
+        </ul>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+        <div>
+          <img src="imagenes/planet1.png" width="128" height="128">
+        </div>
+        <div>
+           <h4>Aplicacion Cuatro</h4>
+           <h4>Aguilar Lopez Ivette</h4>
+        </div>
+    </div>
+</div>
+
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Definición</h1>
+    </div>
+    <div data-role="content" align="center">
+        <div>
+        <img src="imagenes/definicion.jpg" width="70%" height="60%"> </div>
+        <div>
+           <p>
+         La contaminación es la introducción de sustancias u otros elementos físicos en un medio que provocan que éste sea inseguro o no apto para su uso.1​ El medio puede ser un ecosistema, un medio físico o un ser vivo. El contaminante puede ser una sustancia química, energía (como sonido, calor, luz o radiactividad).
+           </p>
+        </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+          <img src="imagenes/planet1.png" width="128" height="128">
+        </div>
+           <h4>Aplicacion Cuatro,A.L.I</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Tipos de contaminación</h1>
+    </div>
+    <div data-role="main" class="ui-content">
+	   <div data-role="collapsible" data-content-theme="false">
+		   <h1>Tipos de contaminacion</h1>
+             <div>
+             <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sus2','','imagenes/img3.jpg',1)"><img src="imagenes/tipos.jpg" width="70%" height="60%" id="sus2"></a>
+             </div>
+       </div>
+    </div>
+    <div data-role="content" align="center">
+        <div>
+        
+           <h3>1. Contaminación de agua</h3>
+           <p>El agua es uno de los elementos naturales que se encuentra en mayor cantidad en el planeta Tierra. También es gran responsable de la posibilidad de desarrollo de las distintas formas de vida: vegetales, animales y el ser humano. </p>
+           
+           <h3>2. Contaminación del aire</h3>
+           <p>se denomina a la adición de elementos tóxicos como el CO. Este tipo de contaminación afecta al bienestar de las personas, animales y plantas de forma negativa.</p>
+           
+           <h3>3. Contaminación lumínica</h3>
+           <p>Se trata de uno de los tipos de contaminación en la que el elemento contaminante es visual. la contaminación lumínica el elemento contaminante en sí es la emisión de luz fuera de lo que sería natural, provocando problemas como la pérdida de orientación o los cambios en los biorritmos tanto de seres humanos como de otros animales.</p>
+           
+           <h3>4. Contaminación electromagnética</h3>
+           <p>Aunque tal ves no es tan perceptible de manera directa por los seres humanos, se refiere a la contaminación derivada del uso de elementos eléctricos o que generen fenómenos electromagnéticos. Pueden generar desorientación y posibles daños en diferentes animales, y los efectos sobre los seres humanos aún son discutidos (vinculándose en ocasiones al cáncer, trastornos de la erección o algunos problemas mentales y físicos).</p>
+           
+           <h3>5. Contaminación genetica</h3>
+           <p>Es la transferencia incontrolada o no deseada de material genético (por medio de la fecundación) hacia una población salvaje. Tanto de organismo genéticamente modificado a otros no modificados, o de especies invasivas o no nativas hacia poblaciones nativas.</p>
+           
+        </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+           <img src="imagenes/planet1.png" width="128" height="128">
+        </div>
+           <h4>Aplicacion Cuatro,A.L.I</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Consecuencias</h1>
+    </div>
+    <div data-role="content" align="center">
+        <div>
+        <img src="imagenes/imagen4.jpg" width="70%" height="60%"> 
+        </div>
+        <div>
+        
+           <h3>Como nos afecta:</h3>
+           <p>
+          Una de las reacciones más comunes a esta contaminación son las erupciones y las irritaciones en nuestra piel, que es causa directa de los gases nocivos que respiramos a diario. Las emisiones de algunos gases nocivos como el monóxido de carbono o el dióxido de azufre pueden resultar muy perjudiciales para nuestra salud
+           </p>
+           <div>
+           <img src="imagenes/imagen3.jpg" width="70%" height="60%"> 
+           </div>
+           
+           <h3>Contaminacion de la capa de ozono:</h3>
+           <p>
+          La capa de ozono rodea la Tierra y la protege de los peligrosos rayos del Sol. La contaminación de la capa de ozono, sobre las capas superiores, hace que los rayos UVB del Sol incrementen los niveles de ozono en la superficie terrestre, especialmente sobre las zonas urbanas y suburbanas, que son las más contaminadas.
+           </p>
+           <div>
+           <img src="imagenes/ozono.jpg" width="70%" height="60%"> 
+           </div>
+           
+           <h3>La contaminación de suelo:</h3>
+           <p>
+   La contaminación del suelo supone la alteración de la superficie terrestre con sustancias químicas que resultan perjudiciales para la vida en distinta medida, poniendo en peligro los ecosistemas y también nuestra salud.
+Esta alteración de la calidad de la tierra puede obedecer a muy diferentes causas, y del mismo modo sus consecuencias provocan serios problemas de salubridad que afectan gravemente a la flora, fauna o a la salud humana a lo largo del tiempo.
+           </p>
+           <div>
+           <img src="imagenes/contaminacion1.jpg" width="70%" height="60%"> 
+           </div>
+         
+        </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+           <img src="imagenes/planet1.png" width="128" height="128">
+        </div>
+           <h4>Aplicacion Cuatro,A.L.I</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Reciclaje</h1>
+    </div>
+    <div data-role="content" align="center">
+        <div>
+        <img src="imagenes/imagen5.jpg" width="70%" height="60%"> 
+        </div>
+        <p><a href="http://www.inforeciclaje.com/que-es-reciclaje.php" target="_self"><h3>Mas informacion</h3></a></p>
+        <div>
+         <p>
+     Las fuentes de contaminación por actividades del hombre son principalmente las industrias, los hogares y los transportes. La combustión, la agricultura, la minería e incluso la guerra conforman fuentes permanentes de contaminación que contribuyen a generar los aproximadamente 400 millones de toneladas anuales de residuos peligrosos
+         </p>
+         <p>
+         Los materiales que causan la contaminación se denominan contaminantes y pueden ser de origen natural o derivados de las actividades humanas. Aquellos que son de origen natural, como la ceniza volcánica, son menos comunes y sus efectos son menores que los de los contaminantes antropogénicos.
+         </p>
+        </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div>
+          <img src="imagenes/planet1.png" width="128" height="128">
+        </div>
+           <h4>Aplicacion Cuatro,A.L.I</h4>
+    </div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+       <h1>Medidas para combatir la contaminación</h1>
+    </div>
+    <br>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/afecta.png" alt="afecta" title="afecta" id="wows1_0"/></li>
+		<li><img src="data1/images/basura.jpg" alt="basura" title="basura" id="wows1_1"/></li>
+		<li><img src="data1/images/contaminacion.jpg" alt="contaminacion" title="contaminacion" id="wows1_2"/></li>
+		<li><img src="data1/images/contaminacion1.jpg" alt="contaminacion1" title="contaminacion1" id="wows1_3"/></li>
+		<li><img src="data1/images/definicion.jpg" alt="definicion" title="definicion" id="wows1_4"/></li>
+		<li><img src="data1/images/imagen3.jpg" alt="imagen3" title="imagen3" id="wows1_5"/></li>
+		<li><img src="data1/images/imagen4.jpg" alt="imagen4" title="imagen4" id="wows1_6"/></li>
+		<li><img src="data1/images/imagen5.jpg" alt="imagen5" title="imagen5" id="wows1_7"/></li>
+		<li><img src="data1/images/imagen8.png" alt="imagen8" title="imagen8" id="wows1_8"/></li>
+		<li><img src="data1/images/img.png" alt="img" title="img" id="wows1_9"/></li>
+		<li><img src="data1/images/ozono.jpg" alt="ozono" title="ozono" id="wows1_10"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/planet1.png" alt="wowslideshow" title="planet1" id="wows1_11"/></a></li>
+		<li><img src="data1/images/tipos.jpg" alt="tipos" title="tipos" id="wows1_12"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="afecta"><span><img src="data1/tooltips/afecta.png" alt="afecta"/>1</span></a>
+		<a href="#" title="basura"><span><img src="data1/tooltips/basura.jpg" alt="basura"/>2</span></a>
+		<a href="#" title="contaminacion"><span><img src="data1/tooltips/contaminacion.jpg" alt="contaminacion"/>3</span></a>
+		<a href="#" title="contaminacion1"><span><img src="data1/tooltips/contaminacion1.jpg" alt="contaminacion1"/>4</span></a>
+		<a href="#" title="definicion"><span><img src="data1/tooltips/definicion.jpg" alt="definicion"/>5</span></a>
+		<a href="#" title="imagen3"><span><img src="data1/tooltips/imagen3.jpg" alt="imagen3"/>6</span></a>
+		<a href="#" title="imagen4"><span><img src="data1/tooltips/imagen4.jpg" alt="imagen4"/>7</span></a>
+		<a href="#" title="imagen5"><span><img src="data1/tooltips/imagen5.jpg" alt="imagen5"/>8</span></a>
+		<a href="#" title="imagen8"><span><img src="data1/tooltips/imagen8.png" alt="imagen8"/>9</span></a>
+		<a href="#" title="img"><span><img src="data1/tooltips/img.png" alt="img"/>10</span></a>
+		<a href="#" title="ozono"><span><img src="data1/tooltips/ozono.jpg" alt="ozono"/>11</span></a>
+		<a href="#" title="planet1"><span><img src="data1/tooltips/planet1.png" alt="planet1"/>12</span></a>
+		<a href="#" title="tipos"><span><img src="data1/tooltips/tipos.jpg" alt="tipos"/>13</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    <br>
+    <div data-role="content" align="center">
+        <div>
+           <h3>EVITAR LA TALA DE ARBOLES</h3>
+           <h3>USAR MENOS FERTILIZNATES Y INSECTISIDAS</h3>
+           <h3>HACER CAMPAÑAS CONTRA LA CONTAMINACION</h3>
+           <h3>PONER MAS BOTES DE BASURA</h3>
+           <h3>NO QUEMAR BASURA</h3>
+        </div>
+    </div>
+    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <div> <img src="imagenes/planet1.png" width="128" height="128"></div>
+           <h4>Aplicacion Cuatro,A.L.I</h4>
+    </div>
+</div>
+
+
+</body>
+</html>
